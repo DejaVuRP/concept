@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="../css/default.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -43,9 +44,143 @@
     <main role="main" class="container">
 
         <div class="main-content">
-            <h1>Контент мэрии</h1>
-            </p>
+            <div class="alert alert-dark" role="alert">
+                Таблица <b>jobs</b> в базе данных
+            </div>
+            <table class="table table-bordered table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">name</th>
+                        <th scope="col">label</th>
+                        <th scope="col">whitelisted</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>government</td>
+                        <td>Мэрия</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
+
+        <div class="alert alert-dark" role="alert">
+            Таблица <b>job_grades</b> в базе данных
+        </div>
+        <table class="table table-bordered table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">id</th>
+                    <th scope="col">job_name</th>
+                    <th scope="col">grade</th>
+                    <th scope="col">name</th>
+                    <th scope="col">label</th>
+                    <th scope="col">salary</th>
+                    <th scope="col">skin_male</th>
+                    <th scope="col">skin_female</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">government</th>
+                    <th scope="col">0</th>
+                    <th scope="col">worker</th>
+                    <th scope="col">Сотрудник мэрии</th>
+                    <th scope="col">250</th>
+                    <th scope="col">{}</th>
+                    <th scope="col">{}</th>
+                </tr>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">government</th>
+                    <th scope="col">1</th>
+                    <th scope="col">secretary</th>
+                    <th scope="col">Секретарь</th>
+                    <th scope="col">250</th>
+                    <th scope="col">{}</th>
+                    <th scope="col">{}</th>
+                </tr>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">government</th>
+                    <th scope="col">2</th>
+                    <th scope="col">deputy</th>
+                    <th scope="col">Заместитель губернатора</th>
+                    <th scope="col">500</th>
+                    <th scope="col">{}</th>
+                    <th scope="col">{}</th>
+                </tr>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">government</th>
+                    <th scope="col">3</th>
+                    <th scope="col">governor</th>
+                    <th scope="col">Губернатор</th>
+                    <th scope="col">1000</th>
+                    <th scope="col">{}</th>
+                    <th scope="col">{}</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br><br>
+
+    <div class="alert alert-dark" role="alert">
+        Менюшки мэрии
+    </div>
+
+    <table class="table">
+        <tbody>
+          <tr>
+            <td>
+                <div class="fill-menu">
+                    <div class="head">
+                        <span class="material-icons">menu</span>
+                        <div class="menu-title">Мэрия</div>
+                    </div>	
+                    <div class="menu-items">
+                            <div class="menu-item selected">
+                                Меню 1
+                            </div>
+                            <div class="menu-item">
+                                Меню 2
+                            </div>
+                            <div class="menu-item">
+                                Меню 3
+                            </div>
+                    </div>
+                    <div class="rotation"></div>
+                </div>
+            </td>
+            <td>
+                <div class="fill-menu">
+                    <div class="head">
+                        <span class="material-icons">menu</span>
+                        <div class="menu-title">Меню 1</div>
+                    </div>	
+                    <div class="menu-items">
+                            <div class="menu-item selected">
+                                Опция 1
+                            </div>
+                            <div class="menu-item">
+                                Опция 2
+                            </div>
+                            <div class="menu-item">
+                                Опция 3
+                            </div>
+                            <div class="menu-item">
+                                Опция 4
+                            </div>
+                    </div>
+                    <div class="rotation"></div>
+                </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
     </main>
 

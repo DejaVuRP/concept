@@ -4,5 +4,85 @@ body {
 
 .main-content {
     padding: 3rem 1.5rem;
-    text-align: center;
+    text-align: left;
+}
+
+.fill-menu {
+    font-size: 21px;
+	width: 431px;
+	color: #FFF;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	overflow: hidden;
+}
+
+.fill-menu .head {
+	height: 55px;
+	width: 431px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color: rgba(40, 45, 60);
+	border: 2px solid rgba(40, 45, 60);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	overflow: hidden;
+}
+
+.fill-menu .menu-items {
+	max-height: 580px;
+	overflow-y: auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.fill-menu .menu-items .menu-item {
+	height: 41px;
+	line-height: 41px;
+	display: block;
+	background-color: rgba(40, 45, 60);
+	color: rgb(216, 217, 218);
+	padding-left: 20px;
+	opacity: 0.9;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.fill-menu .menu-items .menu-item.selected {
+	background-color: rgba(61, 71, 98);
+	border-left: 5px solid rgb(9, 154, 225);
+	opacity: 1;
+	color: rgb(9, 154, 225);
+}
+
+.rotation {
+	overflow: hidden;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	width: 431px;
+	height: 30px;
+	color: #FFFFFF;
+	background-color: rgba(40, 45, 60);
+}
+
+.fill-menu .material-icons {
+	margin: 0 5px 0 8px;
+	padding: 5px;
+    font-size: 48px;
+    color: rgb(9, 154, 225);
+}
+
+.fill-menu .menu-title {
+	margin: 6px 20px 0 0;
+	font-size: 26px;
+	width: 90%;
+}
+
+.fill-menu .item-count, .fill-menu .item-right {
+	float: right;
+	margin-right: 10px;
 }
