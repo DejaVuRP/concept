@@ -86,16 +86,6 @@
                     <th scope="col">#</th>
                     <th scope="col">government</th>
                     <th scope="col">0</th>
-                    <th scope="col">worker</th>
-                    <th scope="col">Сотрудник мэрии</th>
-                    <th scope="col">250</th>
-                    <th scope="col">{}</th>
-                    <th scope="col">{}</th>
-                </tr>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">government</th>
-                    <th scope="col">1</th>
                     <th scope="col">secretary</th>
                     <th scope="col">Секретарь</th>
                     <th scope="col">250</th>
@@ -105,7 +95,7 @@
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">government</th>
-                    <th scope="col">2</th>
+                    <th scope="col">1</th>
                     <th scope="col">deputy</th>
                     <th scope="col">Заместитель губернатора</th>
                     <th scope="col">500</th>
@@ -115,7 +105,7 @@
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">government</th>
-                    <th scope="col">3</th>
+                    <th scope="col">2</th>
                     <th scope="col">governor</th>
                     <th scope="col">Губернатор</th>
                     <th scope="col">1000</th>
@@ -124,63 +114,272 @@
                 </tr>
             </tbody>
         </table>
-    </div>
+        </div>
 
-    <br><br>
+        <br><br>
 
-    <div class="alert alert-dark" role="alert">
-        Менюшки мэрии
-    </div>
+        <div class="alert alert-dark" role="alert">
+            Менюшки мэрии
+        </div>
 
-    <table class="table">
-        <tbody>
-          <tr>
-            <td>
-                <div class="fill-menu">
-                    <div class="head">
-                        <span class="material-icons">menu</span>
-                        <div class="menu-title">Мэрия</div>
-                    </div>	
-                    <div class="menu-items">
-                            <div class="menu-item selected">
-                                Меню 1
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="fill-menu">
+                            <div class="head">
+                                <span class="material-icons">menu</span>
+                                <div class="menu-title">Мэрия</div>
                             </div>
-                            <div class="menu-item">
-                                Меню 2
+                            <div class="menu-items">
+                                <div class="menu-item selected">
+                                    Лицензии
+                                </div>
+                                <div class="menu-item">
+                                    Журнал приёма
+                                </div>
+                                <div class="menu-item">
+                                    Налоги
+                                </div>
+                                <div class="menu-item">
+                                    Бюджет
+                                </div>
+                                <div class="menu-item">
+                                    Управление службами
+                                </div>
                             </div>
-                            <div class="menu-item">
-                                Меню 3
+                            <div class="rotation"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="fill-menu">
+                            <div class="head">
+                                <span class="material-icons">menu</span>
+                                <div class="menu-title">Лицензии</div>
                             </div>
-                    </div>
-                    <div class="rotation"></div>
-                </div>
-            </td>
-            <td>
-                <div class="fill-menu">
-                    <div class="head">
-                        <span class="material-icons">menu</span>
-                        <div class="menu-title">Меню 1</div>
-                    </div>	
-                    <div class="menu-items">
-                            <div class="menu-item selected">
-                                Опция 1
+                            <div class="menu-items">
+                                <div class="menu-item">
+                                    Посмотреть лицензии
+                                </div>
+                                <div class="menu-item selected">
+                                    Выдать лицензию
+                                </div>
+                                <div class="menu-item">
+                                    Отозвать лицензию
+                                </div>
                             </div>
-                            <div class="menu-item">
-                                Опция 2
+                            <div class="rotation"></div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="alert alert-dark" role="alert">
+            Посмотреть лицензии
+        </div>
+        <h3>Показываются все лицензии из базы данных таблицой</h3>
+
+        <div class="alert alert-dark" role="alert">
+            Лицензии
+        </div>
+
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="fill-menu">
+                            <div class="head">
+                                <span class="material-icons">menu</span>
+                                <div class="menu-title">Выдать лицензию</div>
                             </div>
-                            <div class="menu-item">
-                                Опция 3
+                            <div class="menu-items">
+                                <div class="menu-item selected">
+                                    Лицензии переработка химикатов
+                                </div>
+                                <div class="menu-item">
+                                    Лицензии переработка нефти
+                                </div>
+                                <div class="menu-item">
+                                    Лицензии добычи воды
+                                </div>
                             </div>
-                            <div class="menu-item">
-                                Опция 4
+                            <div class="rotation"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="fill-menu">
+                            <div class="head">
+                                <span class="material-icons">menu</span>
+                                <div class="menu-title">Отозвать лицензию</div>
                             </div>
-                    </div>
-                    <div class="rotation"></div>
-                </div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+                            <div class="menu-items">
+                                <div class="menu-item">
+                                    Лицензия 1 (спикок лицензий)
+                                </div>
+                                <div class="menu-item selected">
+                                    Лицензия 2
+                                </div>
+                            </div>
+                            <div class="rotation"></div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="alert alert-dark" role="alert">
+            Журнал приёма
+        </div>
+
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="fill-menu">
+                            <div class="head">
+                                <span class="material-icons">menu</span>
+                                <div class="menu-title">Журнал приёма</div>
+                            </div>
+                            <div class="menu-items">
+                                <div class="menu-item selected">
+                                    Посмотреть
+                                </div>
+                                <div class="menu-item">
+                                    Добавить
+                                </div>
+                                <div class="menu-item">
+                                    Очистить
+                                </div>
+                            </div>
+                            <div class="rotation"></div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="alert alert-dark" role="alert">
+            Налоги
+        </div>
+
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="fill-menu">
+                            <div class="head">
+                                <span class="material-icons">menu</span>
+                                <div class="menu-title">Налоги</div>
+                            </div>
+                            <div class="menu-items">
+                                <div class="menu-item selected">
+                                    Изменить налог (5 - 10%)
+                                </div>
+                                <div class="menu-item">
+                                    Изменить налог (15 - 20%)
+                                </div>
+                                <div class="menu-item">
+                                    Режим ЧС (50%)
+                                </div>
+                            </div>
+                            <div class="rotation"></div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="alert alert-dark" role="alert">
+            Бюджет
+        </div>
+
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="fill-menu">
+                            <div class="head">
+                                <span class="material-icons">menu</span>
+                                <div class="menu-title">Бюджет (500.000$)</div>
+                            </div>
+                            <div class="menu-items">
+                                <div class="menu-item selected">
+                                    Внести в бюджет
+                                </div>
+                                <div class="menu-item">
+                                    Взять из бюджета
+                                </div>
+                            </div>
+                            <div class="rotation"></div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="alert alert-dark" role="alert">
+            Управление службами
+        </div>
+
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="fill-menu">
+                            <div class="head">
+                                <span class="material-icons">menu</span>
+                                <div class="menu-title">Управление службами</div>
+                            </div>
+                            <div class="menu-items">
+                                <div class="menu-item selected">
+                                    Полиция
+                                </div>
+                                <div class="menu-item">
+                                    Медики
+                                </div>
+                                <div class="menu-item">
+                                    Пожарники
+                                </div>
+                                <div class="menu-item">
+                                    Юриспруденция
+                                </div>
+                                <div class="menu-item">
+                                    Мэрия
+                                </div>
+                                <div class="menu-item">
+                                    Новости
+                                </div>
+                                <div class="menu-item">
+                                    Нефтенная компания
+                                </div>
+                            </div>
+                            <div class="rotation"></div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="fill-menu">
+                            <div class="head">
+                                <span class="material-icons">menu</span>
+                                <div class="menu-title">Под меню</div>
+                            </div>
+                            <div class="menu-items">
+                                <div class="menu-item selected">
+                                    Нанять руководителя
+                                </div>
+                                <div class="menu-item">
+                                    Уволить руководителя
+                                </div>
+                                <div class="menu-item">
+                                    Изменить зарплату
+                                </div>
+                            </div>
+                            <div class="rotation"></div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
     </main>
 
